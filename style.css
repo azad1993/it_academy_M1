@@ -1,0 +1,447 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&family=Inter&family=Lato&family=Montserrat&family=Roboto:wght@400;700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.wrapper {
+  margin: 21px 85px 173px 84px;
+}
+
+.sinxro {
+  margin-left: 37px;
+}
+
+.littletext {
+  margin-top: 97px;
+  margin-left: 37px;
+  margin-bottom: 43px;
+}
+
+.icons {
+  margin-right: 10px;
+}
+span {
+  margin-right: 25px;
+}
+.maintext {
+  display: flex;
+  gap: 190px;
+  margin-bottom: 94px;
+  margin-left: 37px;
+}
+
+.headtext {
+  display: flex;
+  gap: 140px;
+
+  /*margin-right: 161px;
+  */
+}
+.headpict {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-right: 161px;
+}
+
+.headp {
+  font-size: 20px;
+  line-height: 150%;
+  /*width: 414px;
+  height: 62px;*/
+  margin-left: 0;
+}
+
+.firstpict {
+  position: relative;
+
+  width: 304px;
+  height: 356px;
+}
+
+.smotret {
+  margin-left: 37px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+}
+
+.rectangle {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 483.63px;
+  height: 200px;
+  top: 67.62px;
+  bottom: 241.12px;
+}
+
+.kaksmot {
+  /*margin-left: 37px;*/
+  display: inline-block;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 101.38%;
+  margin-left: 0;
+}
+
+.okurs {
+  position: relative;
+  margin-top: 250px;
+  font-weight: 700;
+  font-size: 55px;
+  bottom: 18px;
+  margin-left: 37px;
+}
+
+.rectangtext {
+  /*color:white;*/
+  text-align: left;
+  display: flex;
+  margin: 0 auto;
+  position: absolute;
+  width: 430.59px;
+  height: 113px;
+  font-size: 25px;
+  line-height: 130%;
+
+  /*left: 435.42px;*/
+  /*top: 400px;*/
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  /*z-index: 2 !important;*/
+}
+.smalltext {
+  text-align: right;
+  display: flex;
+  margin: 0 auto;
+  position: absolute;
+  width: 430.59px;
+  height: 113px;
+  font-size: 20px;
+  line-height: 130%;
+
+  /*left: 435.42px;*/
+  /*top: 400px;*/
+
+  top: 50%;
+  left: 50%;
+  transform: translate(5%, 100%);
+}
+.text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+}
+
+.myPhoto {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo {
+  position: relative;
+  width: 314px;
+  height: 315px;
+  /*top: 135px;*/
+  z-index: 1;
+}
+
+.ellipse1 {
+  position: relative;
+  top: -20px;
+  right: -20px;
+  z-index: -1;
+}
+
+.ellipse {
+  position: relative;
+  right: 8px;
+  top: -25px;
+  z-index: -1;
+}
+
+.footers {
+  display: flex;
+
+  justify-content: flex-start;
+  align-content: flex-start;
+  gap: 132px;
+}
+
+.siting {
+  position: relative;
+}
+
+.sitingel {
+  position: relative;
+  left: 15px;
+  bottom: 13px;
+  z-index: -1;
+}
+
+.flittle {
+  width: 150px;
+}
+.flittle2 {
+  width: 150px;
+}
+.secondp {
+  font-size: 18px;
+}
+.firstp {
+  font-size: 25px;
+  font-weight: 700;
+}
+.fimg {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0;
+  margin-left: 37px;
+  padding: 0;
+}
+.ftext {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  flex-shrink: inherit;
+  /*flex-wrap: wrap;*/
+  gap: 95px;
+  margin: 0;
+  padding: 0;
+}
+
+.format {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 101.38%;
+  margin-left: 37px;
+  margin-top: 178px;
+  margin-bottom: 89px;
+}
+
+.formatdiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-shrink: inherit;
+  gap: 115px;
+  margin-left: 37px;
+}
+.formatsec{
+
+}
+
+.formath2 {
+    display: inline;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 130%;
+  color: #1e4681;
+}
+.formatp{
+    font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+margin-top: 2px;
+}
+
+@media (min-width: 376px) and (max-width: 834px) {
+  .wrapper {
+    margin: 56px 86.69px 180.05px 72px;
+  }
+  .maintext {
+    display: flex;
+    gap: 110.04px;
+  }
+
+  h1 {
+    position: relative;
+    font-weight: 700;
+    font-size: 32px;
+    bottom: 10.42px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 10px;
+    width: 383.41px;
+    height: 216.61px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  .myPhoto {
+    display: flex;
+    align-items: center;
+  }
+
+  .photo {
+    position: relative;
+    width: 181.86px;
+    height: 182.44px;
+    /*top: 135px;*/
+    z-index: 1;
+  }
+
+  .ellipse {
+    position: relative;
+    width: 211.98px;
+    height: 34.17px;
+    top: 282px;
+    right: 71.63px;
+  }
+
+  .footers {
+    display: flex;
+    margin-top: 70.01px;
+    justify-content: flex-start;
+    gap: 55.02px;
+  }
+
+  .flittle {
+    width: 86.88px;
+  }
+  .flittle2 {
+    width: 108px;
+  }
+  .secondp {
+    font-size: 11px;
+  }
+  .firstp {
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .fimg {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+  .ftext {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 55.02px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .wrapper {
+    margin: 56px 30.53px 124px 36px;
+  }
+  .maintext {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    margin-right: 20%;
+  }
+
+  h1 {
+    position: relative;
+    font-weight: 700;
+    font-size: 26px;
+    bottom: 8.39px;
+  }
+
+  .text {
+    width: 308.47px;
+    height: 174.27px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .myPhoto {
+    display: flex;
+    align-items: center;
+  }
+
+  .photo {
+    position: relative;
+    width: 146.32px;
+    height: 146.78px;
+    /*top: 135px;*/
+    top: 20px;
+    z-index: 1;
+  }
+
+  .ellipse {
+    position: relative;
+    width: 170.55px;
+    height: 27.49px;
+    left: 5px;
+    top: 475px;
+    right: 50px;
+  }
+
+  .footers {
+    display: flex;
+
+    margin-top: 59.22px;
+    justify-content: flex-start;
+    align-content: flex-start;
+    /*gap: 55.02px;*/
+  }
+  .ftext {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    gap: 36.61px;
+    margin-top: 59.22px;
+    margin: 0;
+    padding: 0;
+  }
+  .flittle {
+    width: 86px;
+    margin: 0;
+  }
+  .flittle2 {
+    width: 86.89px;
+    margin: 0;
+  }
+  .secondp {
+    font-size: 10px;
+  }
+  .firstp {
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .fimg {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+}
