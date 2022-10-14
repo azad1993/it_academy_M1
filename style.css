@@ -79,15 +79,7 @@ span {
   margin: 0 auto;
 }
 
-.rectangle {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  width: 483.63px;
-  height: 200px;
-  top: 67.62px;
-  bottom: 241.12px;
-}
+
 
 .kaksmot {
   /*margin-left: 37px;*/
@@ -106,6 +98,16 @@ span {
   bottom: 18px;
   margin-left: 37px;
 }
+
+.rectangle {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 483.63px;
+    height: 200px;
+    top: 67.62px;
+    bottom: 241.12px;
+  }
 
 .rectangtext {
   /*color:white;*/
@@ -251,54 +253,140 @@ span {
   margin-left: 37px;
   margin-right: 259px;
 }
-.formatsec{
-
-}
 
 .formath2 {
-    display: inline;
+  display: inline;
   font-weight: 700;
   font-size: 25px;
   line-height: 130%;
   color: #1e4681;
 }
-.formatp{
-    font-weight: 400;
-font-size: 18px;
-line-height: 130%;
-margin-top: 2px;
+
+.formatp {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  margin-top: 2px;
 }
 
 @media (min-width: 376px) and (max-width: 834px) {
   .wrapper {
-    margin: 56px 86.69px 180.05px 72px;
+    margin: 22px 49.23px 20px 48.65px;
   }
   .maintext {
     display: flex;
     gap: 110.04px;
   }
 
+  .sinxro {
+    width: 64.87px;
+    height: 38.23px;
+    margin-left: 37px;
+  }
+  .littletext {
+    margin-top: 57.92px;
+  }
+  .kaksmot {
+    font-size: 46px;
+    line-height: 101.38%;
+    margin-left: 0;
+  }
+  
+  .headpict {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+  }
+   .headtext {
+    display: flex;
+    gap: 0px;
+    
+  }
+  
+
+  .rectangle {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 280.11px;
+height: 115.83px;
+    top: 50.75px;
+    bottom: 100.41px;
+  }
+
+.rectangtext {
+  
+  text-align: left;
+  display: flex;
+  margin: 0 auto;
+  position: absolute;
+  width: 249.38px;
+height: 65.45px;
+  font-size: 14px;
+  line-height: 130%;
+
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  
+}
+.smalltext {
+  text-align: right;
+  display: flex;
+  margin: 0 auto;
+  position: absolute;
+  width: 162.46px;
+height: 26.43px;
+  font-size: 12px;
+  line-height: 130%;
+  top: 90%;
+  left: 51%;
+  transform: translate(5%, 100%);
+}
+  
+  .firstpict {
+    width: 176.07px;
+    height: 206.18px;
+  }
+  .headp {
+    font-size: 12px;
+    line-height: 150%;
+  }
+  span {
+    font-size: 12px;
+  }
+
+  .icons {
+    width: 12.74px;
+    height: 12.16px;
+  }
   h1 {
     position: relative;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 46px;
     bottom: 10.42px;
   }
 
   .text {
-    display: flex;
-    flex-direction: column;
+    /*display: flex;
+    flex-direction: column;*/
     position: relative;
     margin-bottom: 10px;
-    width: 383.41px;
-    height: 216.61px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
   }
-
+  .okurs {
+    font-size: 32px;
+    margin-top: 178px;
+    bottom: 18px;
+    margin-left: 37px;
+  }
   .myPhoto {
     display: flex;
     align-items: center;
@@ -316,8 +404,8 @@ margin-top: 2px;
     position: relative;
     width: 211.98px;
     height: 34.17px;
-    top: 282px;
-    right: 71.63px;
+    top: -15px;
+    right: 0px;
   }
 
   .footers {
@@ -341,8 +429,10 @@ margin-top: 2px;
     font-weight: 700;
   }
   .fimg {
-    display: none;
-    margin: 0;
+    display: flex;
+    width: 134.37px;
+    height: 117.57px;
+    margin-left: 40px;
     padding: 0;
   }
   .ftext {
@@ -352,6 +442,39 @@ margin-top: 2px;
     gap: 55.02px;
     margin: 0;
     padding: 0;
+  }
+  .format {
+    font-weight: 700;
+    font-size: 32px;
+line-height: 101.38%;
+    margin-left: 37px;
+    margin-top: 103.09px;
+    margin-bottom: 51.55px;
+  }
+  
+  .formatdiv {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    /*flex-wrap: wrap;*/
+    gap: 46px;
+    margin-left: 37px;
+    margin-right: 200px;
+  }
+  
+  .formath2 {
+    display: inline;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 130%;
+    color: #1e4681;
+  }
+  
+  .formatp {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 130%;
+    margin-top: 2px;
   }
 }
 
