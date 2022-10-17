@@ -79,8 +79,6 @@ span {
   margin: 0 auto;
 }
 
-
-
 .kaksmot {
   /*margin-left: 37px;*/
   display: inline-block;
@@ -100,14 +98,14 @@ span {
 }
 
 .rectangle {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 483.63px;
-    height: 200px;
-    top: 67.62px;
-    bottom: 241.12px;
-  }
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 483.63px;
+  height: 200px;
+  top: 67.62px;
+  bottom: 241.12px;
+}
 
 .rectangtext {
   /*color:white;*/
@@ -291,7 +289,7 @@ span {
     line-height: 101.38%;
     margin-left: 0;
   }
-  
+
   .headpict {
     display: flex;
     flex-direction: column;
@@ -300,53 +298,49 @@ span {
     justify-content: center;
     margin-right: 20px;
   }
-   .headtext {
+  .headtext {
     display: flex;
     gap: 0px;
-    
   }
-  
 
   .rectangle {
     display: flex;
     justify-content: center;
     position: relative;
     width: 280.11px;
-height: 115.83px;
+    height: 115.83px;
     top: 50.75px;
     bottom: 100.41px;
   }
 
-.rectangtext {
-  
-  text-align: left;
-  display: flex;
-  margin: 0 auto;
-  position: absolute;
-  width: 249.38px;
-height: 65.45px;
-  font-size: 14px;
-  line-height: 130%;
+  .rectangtext {
+    text-align: left;
+    display: flex;
+    margin: 0 auto;
+    position: absolute;
+    width: 249.38px;
+    height: 65.45px;
+    font-size: 14px;
+    line-height: 130%;
 
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -10%);
-  
-}
-.smalltext {
-  text-align: right;
-  display: flex;
-  margin: 0 auto;
-  position: absolute;
-  width: 162.46px;
-height: 26.43px;
-  font-size: 12px;
-  line-height: 130%;
-  top: 90%;
-  left: 51%;
-  transform: translate(5%, 100%);
-}
-  
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+  }
+  .smalltext {
+    text-align: right;
+    display: flex;
+    margin: 0 auto;
+    position: absolute;
+    width: 162.46px;
+    height: 26.43px;
+    font-size: 12px;
+    line-height: 130%;
+    top: 90%;
+    left: 51%;
+    transform: translate(5%, 100%);
+  }
+
   .firstpict {
     width: 176.07px;
     height: 206.18px;
@@ -446,12 +440,12 @@ height: 26.43px;
   .format {
     font-weight: 700;
     font-size: 32px;
-line-height: 101.38%;
+    line-height: 101.38%;
     margin-left: 37px;
     margin-top: 103.09px;
     margin-bottom: 51.55px;
   }
-  
+
   .formatdiv {
     display: flex;
     justify-content: flex-start;
@@ -461,7 +455,7 @@ line-height: 101.38%;
     margin-left: 37px;
     margin-right: 200px;
   }
-  
+
   .formath2 {
     display: inline;
     font-weight: 700;
@@ -469,7 +463,7 @@ line-height: 101.38%;
     line-height: 130%;
     color: #1e4681;
   }
-  
+
   .formatp {
     font-weight: 400;
     font-size: 11px;
@@ -480,21 +474,132 @@ line-height: 101.38%;
 
 @media (max-width: 375px) {
   .wrapper {
-    margin: 56px 30.53px 124px 36px;
+    margin: 36px 32.34px 10px 36px;
   }
-  .maintext {
+
+  .sinxro {
+    display: block;
+    width: 52.19px;
+    height: 30.75px;
+    margin-left: 0;
+  }
+
+  .littletext {
+    margin-top: 44.6px;
+    margin-bottom: 12.58px;
+    margin-left: 0;
+  }
+  .kaksmot {
+    font-size: 37px;
+    line-height: 101.38%;
+    margin-left: 0;
+  }
+
+  .headpict {
     display: flex;
     flex-direction: column;
+    position: relative;
+    align-content: flex-end;
+    margin: 0;
+    margin-left: 165px;
+    justify-content: flex-end;
+  }
+  .headtext {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .firstpict {
+    width: 141.66px;
+    height: 165.89px;
+  }
+
+  .maintext {
+    display: flex;
+    flex-direction: row;
     gap: 56px;
     margin-right: 20%;
   }
 
-  h1 {
+  .okurs {
     position: relative;
+    margin-top: 130px;
     font-weight: 700;
     font-size: 26px;
     bottom: 8.39px;
+    margin-left: 37px;
   }
+
+  .headp {
+    font-size: 10px;
+    line-height: 150%;
+    /*width: 414px;
+    height: 62px;*/
+    margin-left: 0;
+  }
+  .ellipse1 {
+    position: relative;
+    width: 127.68px;
+    height: 19.1px;
+    top: -10px;
+    left: 10px;
+  }
+  span {
+    font-size: 10px;
+    margin-right: 4px;
+  }
+  .icons {
+    width: 10.25px;
+    height: 9.79px;
+    margin-right: 3.73px;
+  }
+
+  .container {
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+  }
+
+  .rectangle {
+    position: relative;
+    width: 225.36px;
+    height: 93.19px;
+    top: 47.86px;
+    bottom: 75.06px;
+    margin-left: 37px;
+  }
+
+  .rectangtext {
+    text-align: left;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
+    font-size: 11px;
+    line-height: 130%;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, 20%);
+  }
+  .smalltext {
+    text-align: right;
+    display: flex;
+    margin: 0 auto;
+    position: absolute;
+    width: 130.7px;
+    height: 21.27px;
+    font-size: 10px;
+    line-height: 130%;
+    top: 100%;
+    left: 40%;
+    transform: translate(5%, 100%);
+  }
+
+ 
 
   .text {
     width: 308.47px;
@@ -537,6 +642,7 @@ line-height: 101.38%;
     align-content: flex-start;
     /*gap: 55.02px;*/
   }
+
   .ftext {
     display: flex;
     justify-content: flex-start;
