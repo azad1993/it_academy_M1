@@ -493,6 +493,7 @@ span {
     font-size: 37px;
     line-height: 101.38%;
     margin-left: 0;
+    margin-bottom: 2.22px;
   }
 
   .headpict {
@@ -516,18 +517,19 @@ span {
 
   .maintext {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 56px;
-    margin-right: 20%;
+    margin: 0;
   }
 
   .okurs {
     position: relative;
-    margin-top: 130px;
+    margin-left: 0;
+    margin-top: 100px;
+    margin-bottom: 8.39px;
     font-weight: 700;
     font-size: 26px;
     bottom: 8.39px;
-    margin-left: 37px;
   }
 
   .headp {
@@ -535,7 +537,7 @@ span {
     line-height: 150%;
     /*width: 414px;
     height: 62px;*/
-    margin-left: 0;
+    
   }
   .ellipse1 {
     position: relative;
@@ -557,32 +559,32 @@ span {
   .container {
     display: flex;
     position: relative;
+    text-align: center;
     justify-content: flex-start;
     width: 100%;
-    text-align: center;
     color: white;
-    margin: 0 auto;
+    margin: 0;
   }
 
   .rectangle {
     position: relative;
-    width: 225.36px;
+    width: 75%;
     height: 93.19px;
-    top: 47.86px;
+    top: 40px;
     bottom: 75.06px;
-    margin-left: 37px;
+    
   }
 
   .rectangtext {
     text-align: left;
     display: flex;
     margin: 0 auto;
-    position: relative;
-    z-index: 3;
+    position: absolute;
+    width: 70%;
     font-size: 11px;
     line-height: 130%;
-    top: 50%;
-    left: 40%;
+    top: 30%;
+    left: 38%;
     transform: translate(-50%, 20%);
   }
   .smalltext {
@@ -595,20 +597,21 @@ span {
     font-size: 10px;
     line-height: 130%;
     top: 100%;
-    left: 40%;
+    left: 38%;
     transform: translate(5%, 100%);
   }
-
+  .smotret{
+    margin: 0;
+  }
  
 
   .text {
-    width: 308.47px;
-    height: 174.27px;
+    margin: 0 0;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 18px;
+    line-height: 150%;
   }
 
   .myPhoto {
@@ -621,7 +624,6 @@ span {
     width: 146.32px;
     height: 146.78px;
     /*top: 135px;*/
-    top: 20px;
     z-index: 1;
   }
 
@@ -629,9 +631,9 @@ span {
     position: relative;
     width: 170.55px;
     height: 27.49px;
-    left: 5px;
-    top: 475px;
-    right: 50px;
+    left: 2px;
+    top: -15px;
+    /*right: 50px;*/
   }
 
   .footers {
@@ -673,5 +675,40 @@ span {
     display: none;
     margin: 0;
     padding: 0;
+  }
+
+  .format {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 101.38%;
+    margin:0;
+    margin-top: 76px;
+    margin-bottom: 16.66px;
+  }
+  
+  .formatdiv {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: flex-start;
+    width: 170px;
+    /*flex-wrap: wrap;*/
+    gap: 20px;
+    margin: 0;
+  }
+  
+  .formath2 {
+    display: inline;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 130%;
+    color: #1e4681;
+  }
+  
+  .formatp {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 130%;
+    margin-top: 2px;
   }
 }
