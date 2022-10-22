@@ -249,13 +249,14 @@
   margin-top: 2px;
 }
 
-@media (min-width: 376px) and (max-width: 834px) {
+@media (min-width: 590px) and (max-width: 930px) {
   .wrapper {
     margin: 22px 49.23px 20px 48.65px;
   }
   .maintext {
     display: flex;
     gap: 110.04px;
+    margin-right: ;
   }
 
   .sinxro {
@@ -444,18 +445,18 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 590px) {
   .wrapper {
     margin: 36px 32.34px 10px 36px;
   }
-
+  
   .sinxro {
     display: block;
     width: 52.19px;
     height: 30.75px;
     margin-left: 0;
   }
-
+  
   .littletext {
     margin-top: 44.6px;
     margin-bottom: 12.58px;
@@ -473,9 +474,9 @@
     flex-direction: column;
     position: relative;
     align-content: flex-end;
+    align-items: flex-end;
     margin: 0;
-    margin-left: 165px;
-    justify-content: flex-end;
+    
   }
   .headtext {
     display: flex;
