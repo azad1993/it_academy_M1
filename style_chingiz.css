@@ -16,7 +16,7 @@
   line-height: 101.38%;
 }
 .firstlist {
-  display:flex;
+  display: flex;
   margin-left: 54px;
   margin-bottom: 248px;
   width: 662px;
@@ -105,8 +105,8 @@ ul.a {
     font-size: 20px;
     line-height: 150%;
   }
-  .firstlisttext{
-    display:flex;
+  .firstlisttext {
+    display: flex;
   }
   .h2head {
     height: 68px;
@@ -150,5 +150,83 @@ ul.a {
     margin-top: 25px;
     font-size: 12px;
   }
- 
+}
+@media (max-width: 590px) {
+  .wrapper2 {
+    margin-left: 18px;
+    margin-right: 41px;
+  }
+
+  .h1head {
+    margin-bottom: 9.66px;
+    margin-left: 18px;
+    height: 73px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 101.38%;
+  }
+  .firstlist {
+    margin-left: 36px;
+    margin-bottom: 5px;
+    width: 95%;
+    height: 274px;
+    left: 78px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 170;
+    font-size: 12px;
+    line-height: 150%;
+  }
+  .h2head {
+    height: 58px;
+    left: 81px;
+    margin-left: 18px;
+    margin-bottom: 35.66px;
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 101.38%;
+  }
+  .sections {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 47.16px;
+  }
+
+  .first {
+    width: 185.92px;
+    height: 74.56px;
+  }
+
+  .section1 {
+    /*margin-left: 8.8px;*/
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 15px 15px 8px snow;
+  }
+
+  .a1 {
+    
+    width: 80%;
+    z-index: 1;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .d1 {
+    
+    width: 80%;
+    z-index: 1;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 11px;
+  }
 }
