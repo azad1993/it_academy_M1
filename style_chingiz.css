@@ -75,3 +75,76 @@ ul.a {
   list-style-type: circle;
 }
 /* .alfa{display: flex;justify-content: flex-start; gap: 97px;} */
+
+@media (min-width: 590px) and (max-width: 930px) {
+  .wrapper2 {
+    margin-left: 31px;
+    margin-right: 61px;
+  }
+  .h1head {
+    margin-bottom: 61px;
+    margin-left: 14px;
+    height: 73px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 101.38%;
+  }
+  .firstlist {
+    margin-left: 26px;
+    margin-bottom: 248px;
+    width: 662px;
+    height: 374px;
+    left: 138px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 150%;
+  }
+  .h2head {
+    height: 68px;
+    left: 121px;
+    margin-left: 14px;
+    margin-bottom: 96px;
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 101.38%;
+  }
+  .sections {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+    margin-bottom: 121px;
+  }
+
+  .section1 {
+    margin-left: 8.8px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 15px 15px 8px snow;
+  }
+
+  .a1 {
+    z-index: 1;
+    margin-left: 35px;
+    margin-top: 25px;
+    font-size: 16px;
+  }
+
+  .d1 {
+    z-index: 1;
+    margin-left: 35px;
+    margin-top: 25px;
+    font-size: 12px;
+  }
+  
+}
