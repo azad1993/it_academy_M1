@@ -156,7 +156,7 @@ ul.a {
     margin-left: 18px;
     margin-right: 41px;
   }
-
+  
   .h1head {
     margin-bottom: 9.66px;
     margin-left: 18px;
@@ -193,9 +193,11 @@ ul.a {
   }
   .sections {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    column-count: 1;
     gap: 30px;
-    margin: 0;
+    margin: 0 ;
     padding: 0;
     margin-bottom: 47.16px;
   }
@@ -214,15 +216,14 @@ ul.a {
   }
 
   .a1 {
-    
     width: 80%;
     z-index: 1;
     margin-left: 15px;
     margin-top: 20px;
     font-size: 14px;
   }
+
   .d1 {
-    
     width: 80%;
     z-index: 1;
     margin-left: 15px;
