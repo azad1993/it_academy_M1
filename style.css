@@ -451,6 +451,10 @@
 }
 
 @media (max-width: 590px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
   .wrapper {
     margin: 36px 32.34px 10px 36px;
   }
@@ -534,7 +538,7 @@
   .containera {
     display: flex;
     position: relative;
-    text-align: center;
+    text-align: left;
     justify-content: flex-start;
     width: 100%;
     color: white;
@@ -562,17 +566,17 @@
     transform: translate(-50%, 20%);
   }
   .smalltext {
-    text-align: right;
+    text-align: left;
     display: flex;
     margin: 0 auto;
     position: absolute;
-    width: 130.7px;
-    height: 21.27px;
+    width: 100%;
+    /*height: 21.27px;*/
     font-size: 10px;
     line-height: 130%;
-    top: 100%;
-    left: 38%;
-    transform: translate(5%, 100%);
+    top: 90%;
+    right: 50%;
+    transform: translate(2%, 20%);
   }
   .smotret {
     margin: 0;
@@ -682,6 +686,26 @@
   }
 }
 
+@media (max-width: 500px) {
+    .smalltext {
+        text-align: left;
+        display: flex;
+        margin: 0 auto;
+        position: absolute;
+        width: 100%;
+        /*height: 21.27px;*/
+        font-size: 10px;
+        line-height: 130%;
+        top: 90%;
+        right: 50%;
+        transform: translate(-8%, 20%);
+      }
+  .ekaphoto{
+    width: 308px;
+    height: 248px;
+  }
+
+}
 
 
 /******************************** A Z A D *******************************************************/

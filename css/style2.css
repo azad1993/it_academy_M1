@@ -16,7 +16,7 @@ body{
 .row-s7{
     font-weight: 700;
     font-size: 55px;
-    padding-top: 180px;
+    /*padding-top: 180px;*/
 }
 .head-s7{
     font-weight: 400;
@@ -34,7 +34,6 @@ body{
 .text1-s7{
     width: 294px;
     margin-right: 70px;
-    padding-bottom: 180px;
 }
 .texth-s7{
     font-weight: 400;
@@ -94,7 +93,7 @@ body{
     .row-s7{
         font-weight: 700;
         font-size: 32px;
-        padding-top: 103px;
+        /*padding-top: 103px;*/
     }
     .head-s7{
         font-weight: 400;
@@ -112,7 +111,7 @@ body{
     .text1-s7{
         width: 170px;
         margin-right: 40px;
-        padding-bottom: 107px;
+       
     }
     .texth-s7{
         font-weight: 400;
@@ -165,7 +164,7 @@ body{
     .row-s7{
         font-weight: 700;
         font-size: 26px;
-        padding-top: 62px;
+        /*padding-top: 62px;*/
     }
     .head-s7{
         font-weight: 400;
@@ -189,7 +188,7 @@ body{
     .text1-s7{
         width: 138px;
         margin-right: 31px;
-        padding-bottom: 63px;
+        
     }
     /* .........phone section 7 end........ */
 

@@ -3,13 +3,19 @@
 /* ............desctop start........... */
 body {
     font-family: roboto;
-    background-color: #EFEFEF;
+    
+}
+.container, .project{
+  margin: 0;
+  padding: 0;
+  background-color: #EFEFEF;
 }
 
 .headd {
     font-weight: 700;
     font-size: 55px;
     margin-bottom: 61px;
+    /*margin-left: 20px;*/
 }
 .eka {
     font-weight: 700;
@@ -19,7 +25,13 @@ body {
     display: none;
 }
 .project {
-    margin: 91PX 331px 111px 126px;
+    padding: 91PX 331px 111px 126px;
+}
+.section9{
+    padding: 179px 410px 185px 122px;
+}
+.section10{
+    padding: 50px 0px 23px 122px;
 }
 .footer{
     display: flex;
@@ -40,13 +52,22 @@ body {
 
 /* ............tablet start.............. */
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 930px) {
     .headd {
         font-weight: 700;
         font-size: 32px;
         margin-bottom: 34px;
+       
     }
-    
+    .project {
+        padding: 53px 192px 64px 71px;
+    }
+    .section9{
+        padding: 103.67px 237.46px 107.15px 71px;
+    }
+    .section10{
+        padding: 28.96px 50px 13.32px 71px;
+    }
     .eka {
         font-weight: 700;
         font-size: 17px;
@@ -57,9 +78,6 @@ body {
     .firstg{
         width: 458px;
         height: 261px;
-    }
-    .project {
-        margin: 53PX 192px 64px 72px;
     }
     .footer{
         display: flex;
@@ -87,22 +105,40 @@ body {
 
 /* ............smartphone start........... */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 590px) {
     .headd {
         font-weight: 700;
         font-size: 26px;
         margin:0;
-        margin-bottom: 24px;
+        margin-bottom: 11px;
     }
-    .project{
-        margin: 50px auto;
-     
-    
+    .project {
+        padding: 42PX 32px 53px 36px;
     }
+    .section9{
+        padding: 62px 20px 64px 37px;
+    }
+    .section10{
+        padding: 23.30px 188.82px 10px 37px;
+    }
+
     .firstg, .footer{
         display: none;
     }
-    .photos :last-child{
-        display: flex;
+    .photos{
+        padding:0 !important;
+        margin-left: 0 !important;
     }
+    .photos :last-child{
+        display:flex;
+        position: relative;
+        margin-left: 0;
+        padding-left: 0;
+
+        
+    }
+    .eka {
+        font-size: 14px;
+    }
+    
 }
