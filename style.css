@@ -1,4 +1,3 @@
-
 /******************************** A Z A D *******************************************************/
 
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&family=Inter&family=Lato&family=Montserrat&family=Roboto:wght@400;700&display=swap");
@@ -70,11 +69,17 @@
 .containera {
   display: flex;
   justify-content: center;
-  width: 100%;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 85px;
+  width: 483.63px;
+  height: 200px;
+  color: white;
   position: relative;
   text-align: center;
-  color: white;
-  margin: 0 auto;
+  border-radius: 5px;
+  padding: 19.26px 27.02px 67.74px 26.03px;
+  background: #1e4681;
 }
 
 .kaksmot {
@@ -94,42 +99,30 @@
   margin-left: 37px;
 }
 
-.rectangle {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  width: 483.63px;
-  height: 200px;
-  top: 67.62px;
-  bottom: 241.12px;
-}
 
 .rectangtext {
-  text-align: left;
   display: flex;
+  text-align: left;
   margin: 0 auto;
-  position: absolute;
+  position: relative;
   width: 430.59px;
   height: 113px;
   font-size: 25px;
   line-height: 130%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -10%);
+  font-size: 25px;
 }
 
 .smalltext {
-  text-align: right;
   display: flex;
+  text-align: right;
+  position: relative;
   margin: 0 auto;
-  position: absolute;
   width: 430.59px;
   height: 113px;
+  left: 250px;
+  top: 50px;
   font-size: 20px;
   line-height: 130%;
-  top: 50%;
-  left: 50%;
-  transform: translate(5%, 100%);
 }
 
 .text {
@@ -253,7 +246,7 @@
   margin-top: 2px;
 }
 
-@media (min-width: 590px) and (max-width: 930px) {
+@media (min-width: 590px) and (max-width: 960px) {
   .wrapper {
     margin: 22px 49.23px 20px 48.65px;
   }
@@ -289,42 +282,43 @@
     display: flex;
     gap: 0px;
   }
-
-  .rectangle {
+  .containera {
     display: flex;
     justify-content: center;
-    position: relative;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 39.17px;
     width: 280.11px;
     height: 115.83px;
-    top: 50.75px;
-    bottom: 100.41px;
+    color: white;
+    position: relative;
+    text-align: left;
+    border-radius: 3px;
+    padding: 11.15px 15.65px 39.24px 15.08px;
+    background: #1e4681;
   }
 
   .rectangtext {
     text-align: left;
     display: flex;
     margin: 0 auto;
-    position: absolute;
+    position: relative;
     width: 249.38px;
     height: 65.45px;
     font-size: 14px;
     line-height: 130%;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -10%);
   }
   .smalltext {
     text-align: right;
     display: flex;
     margin: 0 auto;
-    position: absolute;
+    position: relative;
     width: 162.46px;
     height: 26.43px;
     font-size: 12px;
     line-height: 130%;
-    top: 90%;
-    left: 51%;
-    transform: translate(5%, 100%);
+    top: 25px;
+    left: 90px;
   }
 
   .firstpict {
@@ -343,7 +337,6 @@
     width: 12.74px;
     height: 12.16px;
   }
- 
 
   .text {
     position: relative;
@@ -356,7 +349,7 @@
   }
   .okurs {
     font-size: 32px;
-    margin-top: 178px;
+    margin-top: 100px;
     bottom: 18px;
     margin-left: 37px;
   }
@@ -451,21 +444,21 @@
 }
 
 @media (max-width: 590px) {
-    body{
-        margin: 0;
-        padding: 0;
-    }
+  body {
+    margin: 0;
+    padding: 0;
+  }
   .wrapper {
     margin: 36px 32.34px 10px 36px;
   }
-  
+
   .sinxro {
     display: block;
     width: 52.19px;
     height: 30.75px;
     margin-left: 0;
   }
-  
+
   .littletext {
     margin-top: 44.6px;
     margin-bottom: 12.58px;
@@ -485,7 +478,6 @@
     align-content: flex-end;
     align-items: flex-end;
     margin: 0;
-    
   }
   .headtext {
     display: flex;
@@ -507,7 +499,7 @@
   .okurs {
     position: relative;
     margin-left: 0;
-    margin-top: 100px;
+    margin-top: 75px;
     margin-bottom: 8.39px;
     font-weight: 700;
     font-size: 26px;
@@ -537,46 +529,41 @@
 
   .containera {
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 38px;
+    width: 225.36px;
+    height: 93.19px;
+    color: white;
     position: relative;
     text-align: left;
-    justify-content: flex-start;
-    width: 100%;
-    color: white;
-    margin: 0;
-  }
-
-  .rectangle {
-    position: relative;
-    width: 75%;
-    height: 93.19px;
-    top: 40px;
-    bottom: 75.06px;
+    border-radius: 3px;
+    padding: 9px 13px 32px 12px;
+    background: #1e4681;
   }
 
   .rectangtext {
     text-align: left;
     display: flex;
     margin: 0 auto;
-    position: absolute;
-    width: 70%;
+    position: relative;
+    width: 200.64px;
+    height: 52.65px;
     font-size: 11px;
     line-height: 130%;
-    top: 30%;
-    left: 38%;
-    transform: translate(-50%, 20%);
   }
   .smalltext {
-    text-align: left;
     display: flex;
+    text-align: left;
     margin: 0 auto;
-    position: absolute;
-    width: 100%;
-    /*height: 21.27px;*/
+    position: relative;
+    width: 130.7px;
+    height: 21.27px;
     font-size: 10px;
     line-height: 130%;
-    top: 90%;
-    right: 50%;
-    transform: translate(2%, 20%);
+    top: 22px;
+    left: 70px;
   }
   .smotret {
     margin: 0;
@@ -685,27 +672,5 @@
     margin-top: 2px;
   }
 }
-
-@media (max-width: 500px) {
-    .smalltext {
-        text-align: left;
-        display: flex;
-        margin: 0 auto;
-        position: absolute;
-        width: 100%;
-        /*height: 21.27px;*/
-        font-size: 10px;
-        line-height: 130%;
-        top: 90%;
-        right: 50%;
-        transform: translate(-8%, 20%);
-      }
-  .ekaphoto{
-    width: 308px;
-    height: 248px;
-  }
-
-}
-
 
 /******************************** A Z A D *******************************************************/
