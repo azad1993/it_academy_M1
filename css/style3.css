@@ -52,7 +52,7 @@ body {
 
 /* ............tablet start.............. */
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 960px) {
     .headd {
         font-weight: 700;
         font-size: 32px;
@@ -139,6 +139,9 @@ body {
     }
     .eka {
         font-size: 14px;
+    }
+    .ekaphoto{
+        width: 80vw;
     }
     
 }

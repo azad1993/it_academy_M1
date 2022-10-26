@@ -156,7 +156,7 @@ body{
     }
 }
 /*...........tablet end............ */
-@media screen and ( max-width: 600px){
+@media screen and ( max-width: 590px){
     /* ............phone section 7....... */
     .container{
         margin-left: 28px;

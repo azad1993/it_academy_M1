@@ -253,7 +253,6 @@
   .maintext {
     display: flex;
     gap: 110.04px;
-    margin-right: ;
   }
 
   .sinxro {
@@ -529,6 +528,7 @@
 
   .containera {
     display: flex;
+    position: relative;
     justify-content: center;
     flex-direction: column;
     margin: 0;
@@ -536,7 +536,6 @@
     width: 225.36px;
     height: 93.19px;
     color: white;
-    position: relative;
     text-align: left;
     border-radius: 3px;
     padding: 9px 13px 32px 12px;
@@ -673,4 +672,47 @@
   }
 }
 
+@media (max-width: 284px) {
+    .containera {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+        margin-top: 38px;
+        width: 150px;
+        height: 93.19px;
+        color: white;
+        text-align: left;
+        border-radius: 3px;
+        padding: 9px 13px 32px 12px;
+        background: #1e4681;
+      }
+    
+      .rectangtext {
+        text-align: left;
+        display: flex;
+        margin: 0 auto;
+        position: relative;
+        width: 150px;
+        height: 52.65px;
+        font-size: 11px;
+        line-height: 130%;
+      }
+      .smalltext {
+        display: flex;
+        text-align: left;
+        margin: 0 auto;
+        position: relative;
+        width: 130.7px;
+        height: 21.27px;
+        font-size: 10px;
+        line-height: 130%;
+        top: 22px;
+        left: 40px;
+      }
+
+
+
+}
 /******************************** A Z A D *******************************************************/
